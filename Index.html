@@ -2,7 +2,7 @@
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Premium Hosting Portal</title>
+    <title>Admin Premium Hosting Free</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -1567,7 +1567,7 @@
 
         function handleSaveAndDownload() {
             const newName = document.getElementById('setup-name').value || "RIZKI BOY";
-            const newImage = document.getElementById('setup-image').value || "https://i.postimg.cc/Zn16VgjT/1000009952.jpg";
+            const newImage = document.getElementById('setup-image').value || "https://cdn.lewd.host/bwHMy9ch.jpg";
             const newTiktok = document.getElementById('setup-tiktok').value || "https://tiktok.com/";
             const newYoutube = document.getElementById('setup-youtube').value || "https://youtube.com/";
             let fileName = document.getElementById('setup-filename').value || "FFX 4.5";
@@ -1602,7 +1602,7 @@
                     // Replace variables
                     htmlContent = htmlContent.replace(/const IS_CONFIGURED = true;/g, 'const IS_CONFIGURED = true;');
                     htmlContent = htmlContent.split('RIZKI BOY').join(newName);
-                    htmlContent = htmlContent.split('https://i.postimg.cc/Zn16VgjT/1000009952.jpg').join(newImage);
+                    htmlContent = htmlContent.split('https://cdn.lewd.host/bwHMy9ch.jpg').join(newImage);
 
                     // Create blob and download
                     const blob = new Blob([htmlContent], { type: 'text/html' });
